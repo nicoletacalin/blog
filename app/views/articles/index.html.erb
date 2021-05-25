@@ -1,7 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Articles</h1>
+<%= cl_image_tag("https://res.cloudinary.com/dcdtemhd1/image/upload/v1621845189/vlvs5ush3g5dwbzpyyie.jpg",
+      width: 400, height: 300, crop: :fill) %>
 
+<!-- for face detection -->
+<%= cl_image_tag("https://res.cloudinary.com/dcdtemhd1/image/upload/v1621845198/sad3erajayfabglky1hz.jpg",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
 <table>
   <thead>
     <tr>
